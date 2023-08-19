@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/resume/socials";
+import { ReactCusdis } from 'react-cusdis'
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -14,9 +15,6 @@ import "./styles/contact.css";
 const Contact = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, []);
-	useEffect(() => {
-
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "contact");
@@ -96,15 +94,18 @@ const Contact = () => {
 							<Socials />
 						</div> */}
 					</div>
-					<div id="cusdis_thread"
-						data-host="https://cusdis.com"
-						data-app-id="d0d6e6e5-3769-44c5-ad30-d9483c4246a8"
-						data-page-id="{{ 5 }}"
-						data-page-url="{{ PAGE_URL }}"
-						data-page-title="{{ PAGE_TITLE }}"
-					></div>
-					<Helmet><script async defer src="https://cusdis.com/js/cusdis.es.js"></script></Helmet>
-
+					<div>
+						<ReactCusdis
+							attrs={{
+								host: 'https://cusdis.com',
+								appId: 'd0d6e6e5-3769-44c5-ad30-d9483c4246a8',
+								pageId: '5',
+								pageTitle: 'PAGE_TITLE',
+								pageUrl: 'PAGE_URL'
+							}}
+						/>
+					</div>
+					{/* <Helmet><script async defer src="https://cusdis.com/js/cusdis.es.js"></script></Helmet> */}
 					<div className="page-footer">
 						<Footer />
 					</div>
