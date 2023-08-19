@@ -48,21 +48,22 @@ const Contact = () => {
 							Thank you for your interest in getting in touch with
 							me. I welcome your feedback, questions, and
 							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
+							comment, please feel free to
+							{" "}
 							<a href={`mailto:${INFO.main.email}`}>
-								{INFO.main.email}
+								email
 							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
-							<a
+							{" "}
+							at me directly. I make an effort to respond to all
+							messages as quickly as possible, although it may take me
+							longer during busy periods. If you prefer to connect
+							on social media, you can find me on{" "}
+							<a className="contact-instagram"
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
 							>
-								{INFO.socials.instagram}
+								Instagram
 							</a>
 							. I post regular updates and engage with my
 							followers there, so don't hesitate to reach out.
