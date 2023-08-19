@@ -73,10 +73,28 @@ const Contact = () => {
 						</div>
 					</div>
 
-					<div className="socials-container">
-						<div className="contact-socials">
+					{/* <div className="content">
+						Address: 254 Phillip St, Waterloo, ON
+						<h3>Phone Number: 211 978 3018</h3>
+						<h3>Email:  <a href="mailto: z2552wan@uwaterloo.ca">
+							z2552wan@uwaterloo.ca
+						</a></h3>
+						<h3>WeChat: Wangzhisu1013</h3>
+						<h3>Current Term: Work Term</h3>
+						<h3>Current Academic Level: 3B (Winter 2022)</h3>
+						<h3>Current Course Load: CO 342, C0 367, CS 240, CS 241E, CS 251,
+							PMATH 333
+						</h3> */}
+					{/* </div> */}
+					<div className="subtitle socials-container">
+						WeChat: Wangzhisu1013 <b></b>
+						Current Term: Work Term <b></b>
+						Current Academic Level: 4A (Fall 2023) <b></b>
+						Current Course Load: N/A
+						{/* <b></b> */}
+						{/* <div className="contact-socials">
 							<Socials />
-						</div>
+						</div> */}
 					</div>
 
 					<div className="page-footer">

@@ -44,22 +44,30 @@ const About = () => {
 								<div className="title about-title">
 									{INFO.about.title}
 								</div>
-
 								<div className="subtitle about-subtitle">
-									{INFO.about.description}
+									{/* {INFO.about.description} */}
+									{/* Embed the PDF using an iframe */}
+									{/* <div className="resume-embed"> */}
+									<iframe
+										src="Zhisu_Wang.pdf"
+										title="Resume"
+										width="100%"
+										height="600px"
+									></iframe>
 								</div>
+
 							</div>
 
 							<div className="about-left-side">
-								<div className="about-image-container">
+								{/* <div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="black-horse.png"
 											alt="about"
 											className="about-image"
 										/>
 									</div>
-								</div>
+								</div> */}
 
 								<div className="about-socials">
 									<Socials />

@@ -39,21 +39,16 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Lecture Notes
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
+							Here are all the well-typed notes I've taken during school terms. These notes are intended as a resource for myself; past, present, or future students of this course, and anyone
+							interested in the material. The goal is to provide an end-to-end resource that covers all material discussed
+							in the course displayed in an organized manner. These notes are my interpretation and transcription of the
+							content covered in lectures. The instructor has not verified or confirmed the accuracy of these notes, and any
+							discrepancies, misunderstandings, typos, etc. as these notes relate to course’s content is not the responsibility of
+							the instructor. If you spot any errors or would like to contribute, please contact me directly.
 						</div>
 
 						<div className="projects-list">
