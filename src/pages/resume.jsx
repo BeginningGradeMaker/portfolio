@@ -4,24 +4,24 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
+import Socials from "../components/resume/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
-import "./styles/about.css";
+import "./styles/resume.css";
 
-const About = () => {
+const Resume = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "about");
+	const currentSEO = SEO.find((item) => item.page === "resume");
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`About | ${INFO.main.title}`}</title>
+				<title>{`Resume | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -30,22 +30,22 @@ const About = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="about" />
+				<NavBar active="resume" />
 				<div className="content-wrapper">
-					<div className="about-logo-container">
-						<div className="about-logo">
+					<div className="resume-logo-container">
+						<div className="resume-logo">
 							<Logo width={46} />
 						</div>
 					</div>
 
-					<div className="about-container">
-						<div className="about-main">
-							<div className="about-right-side">
-								<div className="title about-title">
-									{INFO.about.title}
+					<div className="resume-container">
+						<div className="resume-main">
+							<div className="resume-right-side">
+								<div className="title resume-title">
+									{INFO.resume.title}
 								</div>
-								<div className="subtitle about-subtitle">
-									{/* {INFO.about.description} */}
+								<div className="subtitle resume-subtitle">
+									{/* {INFO.resume.description} */}
 									{/* Embed the PDF using an iframe */}
 									{/* <div className="resume-embed"> */}
 									<iframe
@@ -58,23 +58,23 @@ const About = () => {
 
 							</div>
 
-							<div className="about-left-side">
-								{/* <div className="about-image-container">
-									<div className="about-image-wrapper">
+							<div className="resume-left-side">
+								{/* <div className="resume-image-container">
+									<div className="resume-image-wrapper">
 										<img
 											src="black-horse.png"
-											alt="about"
-											className="about-image"
+											alt="resume"
+											className="resume-image"
 										/>
 									</div>
 								</div> */}
 
-								<div className="about-socials">
+								<div className="resume-socials">
 									<Socials />
 								</div>
 							</div>
 						</div>
-						<div className="about-socials-mobile">
+						<div className="resume-socials-mobile">
 							<Socials />
 						</div>
 					</div>
@@ -87,4 +87,4 @@ const About = () => {
 	);
 };
 
-export default About;
+export default Resume;

@@ -1,10 +1,10 @@
-.about-logo-container {
+.resume-logo-container {
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
 }
 
-.about-logo {
+.resume-logo {
 	display: flex;
 	position: fixed;
 	border: 1px solid white;
@@ -13,7 +13,7 @@
 	top: 4vh;
 }
 
-.about-container {
+.resume-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -21,33 +21,33 @@
 	padding-top: 120px;
 }
 
-.about-main {
+.resume-main {
 	display: flex;
 }
 
-.about-right-side {
+.resume-right-side {
 	flex-basis: 900px;
 }
 
-.about-title {
+.resume-title {
 	width: 100% !important;
 }
 
-.about-subtitle {
+.resume-subtitle {
 	width: 80% !important;
 }
 
-.about-left-side {
+.resume-left-side {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 300px;
 }
 
-.about-image-container {
+.resume-image-container {
 	width: 370px;
 }
 
-.about-image-wrapper {
+.resume-image-wrapper {
 	display: inline-block;
 	overflow: hidden;
 	width: 100%;
@@ -55,63 +55,63 @@
 	transform: rotate(3deg);
 }
 
-.about-image-wrapper img {
+.resume-image-wrapper img {
 	display: block;
 	width: 100%;
 }
 
-.about-socials {
+.resume-socials {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-.about-socials-mobile {
+.resume-socials-mobile {
 	display: none;
 }
 
 @media (max-width: 1024px) {
-	.about-logo {
+	.resume-logo {
 		z-index: 100;
 	}
 
-	.about-main {
+	.resume-main {
 		flex-direction: column;
 	}
 
-	.about-subtitle {
+	.resume-subtitle {
 		padding-top: 20px !important;
 	}
 
-	.about-left-side {
+	.resume-left-side {
 		flex-basis: 100%;
 		order: 1;
 	}
 
-	.about-right-side {
+	.resume-right-side {
 		flex-basis: 100%;
 		order: 2;
 	}
 
-	.about-image-container {
+	.resume-image-container {
 		padding-bottom: 40px;
 	}
 
-	.about-socials {
+	.resume-socials {
 		display: none;
 	}
 
-	.about-socials-mobile {
+	.resume-socials-mobile {
 		padding-top: 30px;
 		display: flex;
 	}
 }
 
 @media (max-width: 600px) {
-	.about-container {
+	.resume-container {
 		padding-top: 60px;
 	}
 
-	.about-image-container {
+	.resume-image-container {
 		width: 80%;
 	}
 }

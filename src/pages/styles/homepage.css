@@ -73,12 +73,12 @@
 	display: flex;
 }
 
-.homepage-projects {
+.homepage-notes {
 	flex-basis: 300px;
 	padding-top: 40px;
 }
 
-.homepage-articles {
+.homepage-blogs {
 	flex-basis: 900px;
 	padding-top: 30px;
 	margin-left: -30px;
@@ -100,7 +100,8 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column;
+		/* Changed: set direction to column */
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
@@ -134,11 +135,11 @@
 		flex-direction: column;
 	}
 
-	.homepage-projects {
+	.homepage-notes {
 		flex-basis: auto;
 	}
 
-	.homepage-articles {
+	.homepage-blogs {
 		flex-basis: auto;
 	}
 

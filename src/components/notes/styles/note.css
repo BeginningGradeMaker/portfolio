@@ -1,40 +1,40 @@
 @import "../../../data/styles.css";
 
-.project {
+.note {
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
 	height: 100%;
 }
 
-.project a {
+.note a {
 	text-decoration: none;
 }
 
-.project:hover {
+.note:hover {
 	background: #fafafa;
 	opacity: 1;
 	transition: background-color 0.3s ease-in-out;
 }
 
-.project:hover .project-link {
+.note:hover .note-link {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
 }
 
-.project-container {
+.note-container {
 	padding: 30px;
 }
 
-.project-logo {
+.note-logo {
 	width: 30px;
 }
 
-.project-logo img {
+.note-logo img {
 	width: 100%;
 }
 
-.project-title {
+.note-title {
 	font-family: var(--secondary-font);
 	color: var(--primary-color);
 	font-size: 16px;
@@ -43,11 +43,11 @@
 	font-weight: 700;
 }
 
-.project-description {
+.note-description {
 	color: var(--secondary-color);
 }
 
-.project-link {
+.note-link {
 	display: flex;
 	align-items: center;
 	color: var(--secondary-color);
@@ -55,18 +55,18 @@
 	padding-top: 20px;
 }
 
-.project-link-icon {
+.note-link-icon {
 	padding-left: 5px;
 	font-size: 13px;
 }
 
-.project-link-text {
+.note-link-text {
 	padding-left: 20px;
 	font-weight: 700;
 }
 
 @media (max-width: 600px) {
-	.project {
+	.note {
 		height: 300px;
 	}
 }

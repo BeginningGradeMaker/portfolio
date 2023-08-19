@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
-import Socials from "../components/about/socials";
+import Socials from "../components/resume/socials";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -14,6 +14,9 @@ import "./styles/contact.css";
 const Contact = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
+	}, []);
+	useEffect(() => {
+
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "contact");
@@ -40,7 +43,7 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Ways to Connect with Me
 						</div>
 
 						<div className="subtitle contact-subtitle">
@@ -54,10 +57,7 @@ const Contact = () => {
 							</a>
 							. I make an effort to respond to all messages within
 							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
+							periods. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
 							<a
 								href={INFO.socials.instagram}
@@ -86,16 +86,24 @@ const Contact = () => {
 							PMATH 333
 						</h3> */}
 					{/* </div> */}
-					<div className="subtitle socials-container">
-						WeChat: Wangzhisu1013 <b></b>
+					<div className="subtitle contact-subtitle">
+						{/* WeChat: Wangzhisu1013 <b></b>
 						Current Term: Work Term <b></b>
 						Current Academic Level: 4A (Fall 2023) <b></b>
-						Current Course Load: N/A
+						Current Course Load: N/A */}
 						{/* <b></b> */}
 						{/* <div className="contact-socials">
 							<Socials />
 						</div> */}
 					</div>
+					<div id="cusdis_thread"
+						data-host="https://cusdis.com"
+						data-app-id="d0d6e6e5-3769-44c5-ad30-d9483c4246a8"
+						data-page-id="{{ PAGE_ID }}"
+						data-page-url="{{ PAGE_URL }}"
+						data-page-title="{{ PAGE_TITLE }}"
+					></div>
+					<Helmet><script async defer src="https://cusdis.com/js/cusdis.es.js"></script></Helmet>
 
 					<div className="page-footer">
 						<Footer />

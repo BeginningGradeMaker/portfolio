@@ -1,10 +1,10 @@
-.projects-logo-container {
+.notes-logo-container {
 	display: flex;
 	justify-content: left;
 	padding-top: 25px;
 }
 
-.projects-logo {
+.notes-logo {
 	display: flex;
 	position: fixed;
 	border: 1px solid white;
@@ -14,7 +14,7 @@
 	z-index: 999;
 }
 
-.projects-container {
+.notes-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -23,11 +23,11 @@
 }
 
 @media (max-width: 600px) {
-	.projects-container {
+	.notes-container {
 		padding-top: 60px;
 	}
 
-	.projects-project {
+	.notes-note {
 		width: calc(100% / 2);
 	}
 }

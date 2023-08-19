@@ -21,19 +21,19 @@ const INFO = {
 			"I'm a third-year student at University of Waterloo studying computer science and combinatorics and optimization. I'm into system-level programming and TCS.",
 	},
 
-	about: {
+	resume: {
 		title: "",
 		description:
 			"I have studied a variaty",
 	},
 
-	articles: {
+	blogs: {
 		title: "Blogs",
 		description:
 			"The content are in Chinese or English. You may use Google Translate.",
 	},
 
-	projects: [
+	notes: [
 		{
 			title: "CO 342: Graph Theory",
 			description:
