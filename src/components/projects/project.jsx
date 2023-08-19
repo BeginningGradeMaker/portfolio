@@ -23,7 +23,7 @@ const Project = (props) => {
 								<FontAwesomeIcon icon={faLink} />
 							</div>
 
-							<a className="project-link-text">{linkText}</a>
+							<div className="project-link-text">{linkText}</div>
 						</div>
 					</div>
 				</a>
