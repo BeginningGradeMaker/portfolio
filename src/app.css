@@ -78,6 +78,7 @@
 }
 
 @media (max-width: 1270px) {
+
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 90%) / 2);
@@ -91,6 +92,7 @@
 }
 
 @media (max-width: 1024px) {
+
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 950px) / 2);

@@ -48,8 +48,8 @@ const Resume = () => {
 									{/* {INFO.resume.description} */}
 									{/* Embed the PDF using an iframe */}
 									{/* <div className="resume-embed"> */}
-									<iframe
-										src="Zhisu_Wang.pdf"
+									<iframe className="resume-resume"
+										src="Zhisu.pdf"
 										title="Resume"
 										width="100%"
 										height="600px"
