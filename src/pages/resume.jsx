@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/resume/socials";
+import { ReactCusdis } from 'react-cusdis'
 
 import INFO from "../data/user";
 import SEO from "../data/seo";

@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Article from "../components/blogs/blogs";
+import { ReactCusdis } from 'react-cusdis'
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -66,6 +67,17 @@ const Blogs = () => {
 								))}
 							</div>
 						</div>
+					</div>
+					<div>
+						<ReactCusdis
+							attrs={{
+								host: 'https://cusdis.com',
+								appId: 'd0d6e6e5-3769-44c5-ad30-d9483c4246a8',
+								pageId: '2',
+								pageTitle: 'PAGE_TITLE',
+								pageUrl: 'PAGE_URL'
+							}}
+						/>
 					</div>
 					<div className="page-footer">
 						<Footer />
